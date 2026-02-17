@@ -1,0 +1,19 @@
+{
+  lastChecks: {
+    email: null,
+    calendar: null,
+    git: null
+  },
+  schedule: {
+    times: [09:00, 13:00, 17:00],
+    timezone: local,
+    workHoursOnly: true,
+    skipWeekends: false
+  },
+  costOptimization: {
+    batchChecks: true,
+    selectiveMonitoring: true,
+    preferredModel: haiku,
+    estimatedMonthlyCost: 0.24-0.36
+  }
+}
